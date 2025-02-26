@@ -10,7 +10,8 @@
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
-    "test": "echo 'No tests specified'"
+    "test": "vitest run",
+    "test:watch": "vitest watch"
   },
   "keywords": [
     "hostname",
@@ -23,8 +24,9 @@
   "author": "MrSunshyne",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^20.0.0",
     "typescript": "^5.0.0",
-    "@types/node": "^20.0.0"
+    "vitest": "^3.0.7"
   },
   "engines": {
     "node": ">=14.0.0"
