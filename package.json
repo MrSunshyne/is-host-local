@@ -1,0 +1,32 @@
+{
+  "name": "is-host-local",
+  "version": "1.0.0",
+  "description": "A utility to check if a hostname resolves to a local IP address",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "hostname",
+    "local",
+    "checker",
+    "hosts-file",
+    "dns",
+    "localhost"
+  ],
+  "author": "MrSunshyne",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
